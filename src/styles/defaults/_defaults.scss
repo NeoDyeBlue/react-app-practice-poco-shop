@@ -1,0 +1,48 @@
+@use "../variables/variables" as v;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: v.$complement-3;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p,
+li {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5em;
+}
